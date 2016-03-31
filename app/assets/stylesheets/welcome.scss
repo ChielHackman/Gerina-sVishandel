@@ -1,0 +1,133 @@
+#nieuws {
+  position: relative;
+  z-index: 5;
+  height: 700px;
+  color: #000;
+  padding-top: 50px;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#nieuws .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity: .4;
+  width: 100%;
+  height: 100%;
+}
+
+#wie {
+  position: relative;
+  z-index: 5;
+  height: 700px;
+  color: #000;
+  padding-top: 50px;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#wie .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('../images/background1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#assortiment {
+  position: relative;
+  z-index: 5;
+  height: 700px;
+  color: #000;
+  padding-top: 50px;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#assortiment .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('../images/background2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity: .4;
+  width: 100%;
+  height: 100%;
+}
+
+#openingstijden {
+  position: relative;
+  z-index: 5;
+  height: 700px;
+  color: #000;
+  padding-top: 50px;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#openingstijden .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('../images/background3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity: .4;
+  width: 100%;
+  height: 100%;
+}
+
+#recensies {
+  position: relative;
+  z-index: 5;
+  height: 700px;
+  color: #000;
+  padding-top: 50px;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#recensies .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url('../images/background4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity: .4;
+  width: 100%;
+  height: 100%;
+}
