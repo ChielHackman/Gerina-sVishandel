@@ -1,10 +1,29 @@
+.navbar-default .navbar-nav > .active{
+  color: #000;
+  background: #3FC5F2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+  background: #3FC5F2;
+}
+
+#nieuws .inner {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
 #nieuws {
   position: relative;
   z-index: 5;
   height: 700px;
   color: #000;
   padding-top: 50px;
-  padding-left: 25px;
   text-align: center;
 }
 
@@ -23,6 +42,14 @@
   opacity: .4;
   width: 100%;
   height: 100%;
+}
+
+#wie .inner {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }
 
 #wie {
@@ -49,6 +76,14 @@
   background-size: cover;
   width: 100%;
   height: 100%;
+}
+
+#assortiment .inner {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }
 
 #assortiment {
@@ -78,6 +113,14 @@
   height: 100%;
 }
 
+#openingstijden .inner {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
 #openingstijden {
   position: relative;
   z-index: 5;
@@ -105,6 +148,14 @@
   height: 100%;
 }
 
+#recensies .inner {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
 #recensies {
   position: relative;
   z-index: 5;
@@ -130,4 +181,14 @@
   opacity: .4;
   width: 100%;
   height: 100%;
+}
+
+#footer {
+  height: 40px;
+}
+
+#footer .container {
+  width: auto;
+  padding-top: 350px;
+  text-align: center;
 }
