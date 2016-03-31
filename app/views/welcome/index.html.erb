@@ -1,28 +1,37 @@
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<body data-spy="scroll" data-target=".navbar-fixed-top">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Gerina's Vishandel</a>
+      <a class="navbar-brand page-scroll" href="#">Gerina's Vishandel</a>
     </div>
-    <div>
-    <div class="collapse navbar-collapse" id="navbar">
-    <ul class="nav navbar-nav">
-      <li><a href="#wie">Wie zijn wij?</a></li>
-      <li><a href="#assortiment">Assortiment</a></li>
-      <li><a href="#openingstijden">Openingstijden</a></li>
-      <li><a href="#recensies">Recensies</a></li>
-    </ul>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="hidden">
+          <a class="page-scroll" href="#"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#wie">Wie zijn wij?</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#assortiment">Assortiment</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#openingstijden">Openingstijden</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#recensies">Recensies</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
-</div>
 </nav>
 
 <div id="nieuws">
@@ -58,40 +67,55 @@
   <div class="bg"></div>
     <div class="inner">
         <h1>Assortiment</h1>
-        <h3>Verse vis</h3>
-        Door dat de producten iedere dag vers worden ingekocht beschikt Gerina's vishandel altijd over een ruim assortiment
-        aan verse vis. Mocht het product waar u naar op zoek bent niet in het assortiment zitten, vraag er dan gerust na.
-        Vaak kunnen de producten op bestelling wel geleverd worden. Gerina's vishandel houd hierbij wel rekening met de natuur
-        en daardoor is niet alle vis het hele jaar door vers verkrijgbaar. Het assortiment bestaat o.a. uit: zalm, schol(filet),
-        hollandse kabeljauw, rode poon, forel, slibtong en makreel.
-
-        <h3>Gebakken vis</h3>
-        Gerina's vishandel staat al jaren bekend om de geweldige kwaliteit van de gebakken vis.
-        De vis word altijd vers gebakken in plantaardige soja olie. De soja olie word iedere dag
-        vervangen waardoor er altijd word gebakken in mooi nieuwe olie.
-        Warm gebakken kibbelingen, lekkerbekken, visfriet, mosselen en schol zijn zomaar een selectie van
-        producten die dagelijks vers worden gebakken.
-
-        <h3>Salades</h3>
-        De huisgemaakte maaltijdsalades van Gerina's vishandel zijn bekend in de hele regio.
-        De maaltijdsalades bestaan uit zalm of tonijn salade en deze zijn opgemaakt met zalmsnippers en garnalen.
-        Verder bied Gerina's vishandel altijd een ruim assortiment aan schepsalades aan.
-        Het assortiment bestaat uit:
-        <ul>
-          <li>Zalmsalade</li>
-          <li>Tonijnsalade</li>
-          <li>Krabsalade</li>
-          <li>Scampi's in look salade</li>
-          <li>Zeevruchtensalade</li>
-          <li>Makreelfilet american salade</li>
-        </ul>
-
-        <h3>Roerbak, Paella & Pasta Tonijn</h3>
-        Het is makkelijk te bereiden, erg gezond en erg lekker. Hierdoor worden deze producten steeds populairder.
-        Gerina's vishandel heeft 3 soorten roerbak in het assortiment, namelijk de Franse, Hollandse en de Indische.
-        De Franse is met een knoflook marinade, de Hollandse is met een wat zoetere marinade en de Indische marinade
-        smaakt naar kerry. De roerbakvis is erg lekker te combineren met rijst of aardappelpuree. Maar kan natuurlijk ook
-        gegeten worden met gewone aardappels.
+          <table>
+            <tr>
+              <th>Verse vis</th>
+              <th>Gebakken vis</th>
+            </tr>
+            <tr>
+              <td>
+                Door dat de producten iedere dag vers worden ingekocht beschikt Gerina's vishandel altijd over een ruim assortiment
+                aan verse vis. Mocht het product waar u naar op zoek bent niet in het assortiment zitten, vraag er dan gerust na.
+                Vaak kunnen de producten op bestelling wel geleverd worden. Gerina's vishandel houd hierbij wel rekening met de natuur
+                en daardoor is niet alle vis het hele jaar door vers verkrijgbaar. Het assortiment bestaat o.a. uit: zalm, schol(filet),
+                hollandse kabeljauw, rode poon, forel, slibtong en makreel.
+              </td>
+              <td>
+                Gerina's vishandel staat al jaren bekend om de geweldige kwaliteit van de gebakken vis.
+                De vis word altijd vers gebakken in plantaardige soja olie. De soja olie word iedere dag
+                vervangen waardoor er altijd word gebakken in mooi nieuwe olie.
+                Warm gebakken kibbelingen, lekkerbekken, visfriet, mosselen en schol zijn zomaar een selectie van
+                producten die dagelijks vers worden gebakken.
+              </td>
+            </tr>
+            <tr>
+              <th>Salades</th>
+              <th>Roerbak, Paella & Pasta Tonijn</th>
+            </tr>
+            <tr>
+              <td>
+                De huisgemaakte maaltijdsalades van Gerina's vishandel zijn bekend in de hele regio.
+                De maaltijdsalades bestaan uit zalm of tonijn salade en deze zijn opgemaakt met zalmsnippers en garnalen.
+                Verder bied Gerina's vishandel altijd een ruim assortiment aan schepsalades aan.
+                Het assortiment bestaat uit:
+                <ul>
+                  <li>Zalmsalade</li>
+                  <li>Tonijnsalade</li>
+                  <li>Krabsalade</li>
+                  <li>Scampi's in look salade</li>
+                  <li>Zeevruchtensalade</li>
+                  <li>Makreelfilet american salade</li>
+                </ul>
+              </td>
+              <td>
+                Het is makkelijk te bereiden, erg gezond en erg lekker. Hierdoor worden deze producten steeds populairder.
+                Gerina's vishandel heeft 3 soorten roerbak in het assortiment, namelijk de Franse, Hollandse en de Indische.
+                De Franse is met een knoflook marinade, de Hollandse is met een wat zoetere marinade en de Indische marinade
+                smaakt naar kerry. De roerbakvis is erg lekker te combineren met rijst of aardappelpuree. Maar kan natuurlijk ook
+                gegeten worden met gewone aardappels.
+              </td>
+            </tr>
+          </table>
       </div>
     </div>
 
@@ -99,23 +123,36 @@
   <div class="bg"></div>
     <div class="inner">
         <h1>Openingstijden</h1>
-        <h3>Dinsdag:</h3>
-        Bathmen 10.30 tot 13.00
-        Oene 15.00 tot 18.00
-        <h3>Woensdag:</h3>
-        Kampen 10.30 tot 17.00
-        <h3>Donderdag:</h3>
-        Keizerslanden 10.00 tot 17.00
-        Wesepe 10.00 tot 13.00
-        Diepenveen 14.00 tot 17.30
-        <h3>Vrijdag:</h3>
-        Keizerslanden 10.00 tot 17.00
-        Wijhe 10.30 tot 13.00
-        Twello 15.00 tot 18.00
-        <h3>Zaterdag:</h3>
-        Keizerslanden 10.00 tot 17.00
-        Wijhe 10.00 tot 17.00
-        Diepenveen 10.00 tot 16.30
+          <table>
+            <tr>
+              <th>Dinsdag:</th>
+              <th>Woensdag:</th>
+              <th>Donderdag:</th>
+              <th>Vrijdag:</th>
+              <th>Zaterdag:</th>
+            </tr>
+            <tr>
+              <td>Bathmen 10:30 / 13:00</td>
+              <td>Kampen 10:30 / 17:00</td>
+              <td>Keizerslanden 10:00 / 17:00</td>
+              <td>Keizerslanden 10:00 / 17:00</td>
+              <td>Keizerslanden 10:00 / 17:00</td>
+            </tr>
+            <tr>
+              <td>Oene 14:00 / 18:00</td>
+              <td></td>
+              <td>Wesepe 10:30 / 13:00</td>
+              <td>Wijhe 10:30 / 13:00</td>
+              <td>Wijhe 09:30 / 17:00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Diepenveen 14:00 / 17:30</td>
+              <td>Twello 15:00 / 18:00</td>
+              <td>Diepenveen 09:30 / 17:00</td>
+            </tr>
+          </table>
       </div>
 </div>
 
