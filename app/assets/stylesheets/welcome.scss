@@ -21,7 +21,7 @@
 #nieuws {
   position: relative;
   z-index: 5;
-  height: 700px;
+  height: 100vh;
   color: #000;
   padding-top: 50px;
   text-align: center;
@@ -45,7 +45,7 @@
 }
 
 #wie .inner {
-  width: 50%;
+  width: 75%;
   height: auto;
   margin: 0 auto;
   padding: 10px;
@@ -55,7 +55,7 @@
 #wie {
   position: relative;
   z-index: 5;
-  height: 700px;
+  height: 100vh;
   color: #000;
   padding-top: 50px;
   padding-left: 25px;
@@ -78,6 +78,17 @@
   height: 100%;
 }
 
+#wie img {
+  width: 250px;
+  height: 400px;
+}
+
+#wie td {
+  width: 250px;
+  height: 400px;
+  text-align: center;
+}
+
 #assortiment .inner {
   width: 90%;
   height: auto;
@@ -89,7 +100,7 @@
 #assortiment {
   position: relative;
   z-index: 5;
-  height: 700px;
+  height: 100vh;
   color: #000;
   padding-top: 50px;
   padding-left: 25px;
@@ -124,7 +135,7 @@
 #openingstijden {
   position: relative;
   z-index: 5;
-  height: 700px;
+  height: 100vh;
   color: #000;
   padding-top: 50px;
   padding-left: 25px;
@@ -184,7 +195,7 @@ td {
 #recensies {
   position: relative;
   z-index: 5;
-  height: 700px;
+  height: 100vh;
   color: #000;
   padding-top: 50px;
   padding-left: 25px;
@@ -214,6 +225,6 @@ td {
 
 #footer .container {
   width: auto;
-  padding-top: 350px;
+  padding-top: 325px;
   text-align: center;
 }
