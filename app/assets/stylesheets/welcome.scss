@@ -10,12 +10,8 @@
   background: #3FC5F2;
 }
 
-#nieuws .inner {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
+.row {
+  width: 99%;
 }
 
 #nieuws {
@@ -42,14 +38,6 @@
   opacity: .4;
   width: 100%;
   height: 100%;
-}
-
-#wie .inner {
-  width: 75%;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
 }
 
 #wie {
@@ -83,20 +71,6 @@
   height: 400px;
 }
 
-#wie td {
-  width: 250px;
-  height: 400px;
-  text-align: center;
-}
-
-#assortiment .inner {
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
-}
-
 #assortiment {
   position: relative;
   z-index: 5;
@@ -104,7 +78,8 @@
   color: #000;
   padding-top: 50px;
   padding-left: 25px;
-  text-align: center;
+  padding-right: 25px;
+  text-align: left;
 }
 
 #assortiment .bg {
@@ -114,22 +89,17 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: url('../images/background2.jpg');
+  background: url('../images/background1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  opacity: .4;
   width: 100%;
   height: 100%;
 }
 
-#openingstijden .inner {
-  width: 75%;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
+#assortiment h1 {
+  text-align: center;
 }
 
 #openingstijden {
@@ -139,7 +109,7 @@
   color: #000;
   padding-top: 50px;
   padding-left: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 #openingstijden .bg {
@@ -149,47 +119,17 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: url('../images/background3.jpg');
+  background: url('../images/background1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  opacity: .4;
   width: 100%;
   height: 100%;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th {
-    padding: 8px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-    font-size: 20px;
-}
-
-td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-
-}
-
-#openingstijden tr:hover {
-  background-color: #f5f5f5;
-}
-
-#recensies .inner {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
+#openingstijden h1 {
+  text-align: center;
 }
 
 #recensies {
@@ -224,7 +164,10 @@ td {
 }
 
 #footer .container {
-  width: auto;
-  padding-top: 325px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   text-align: center;
 }
