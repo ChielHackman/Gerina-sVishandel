@@ -48,3 +48,6 @@ end
 
 
 gem 'rails_12factor', group: :production
+
+#gem voor smooth scroll van <section>.....</section> naar <section>.....</section>
+gem 'scrollify'
