@@ -32,6 +32,10 @@ li red {
   color: red;
 }
 
+h1 {
+  font-style: italic;
+}
+
 #nieuws {
   position: relative;
   z-index: 5;
@@ -95,10 +99,6 @@ li red {
   text-align: center;
 }
 
-#assortiment h1 {
-  text-align: center;
-}
-
 #openingstijden {
   position: relative;
   z-index: 5;
@@ -107,10 +107,6 @@ li red {
   padding-top: 50px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
-}
-
-#openingstijden h1 {
   text-align: center;
 }
 
