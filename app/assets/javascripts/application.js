@@ -15,4 +15,3 @@
 //= require turbolinks
 //= require welcome
 //= require_tree .
-//= require scrollify
