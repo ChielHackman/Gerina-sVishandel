@@ -29,27 +29,3 @@ $(function(){
         navMain.collapse('hide');
     });
 });
-
-
-
-// dit activeert smooth scolling
-// ik heb all opties in de functie uitgezet.
-// voor meer info check hier
-// http://projects.lukehaas.me/scrollify
-// https://github.com/rahullakhaney/scrollify
-$(function() {
-$.scrollify({
-  section : "section",
-  // sectionName : "section-name",
-  easing: "easeOutExpo",
-  scrollSpeed: 900,
-  offset : 0,
-  scrollbars: true,
-  // standardScrollElements: "",
-  // setHeights: true,
-  // before:function() {},
-  // after:function() {},
-  // afterResize:function() {},
-  // afterRender:function() {}
-});
-});
