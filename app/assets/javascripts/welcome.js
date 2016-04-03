@@ -42,7 +42,7 @@ $.scrollify({
   section : "section",
   // sectionName : "section-name",
   easing: "easeOutExpo",
-  scrollSpeed: 1000,
+  scrollSpeed: 900,
   offset : 0,
   scrollbars: true,
   // standardScrollElements: "",
