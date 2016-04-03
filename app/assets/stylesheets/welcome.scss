@@ -1,11 +1,3 @@
-body {
-  background-image: url('../images/background1.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
 .navbar-default .navbar-nav > .active{
   color: #000;
   background: #3FC5F2;
@@ -19,7 +11,25 @@ body {
 }
 
 .row {
-  width: 99%;
+  width: 100%;
+}
+
+ul {
+    list-style: inside;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: center;
+    font-weight: bold;
+}
+
+li green {
+  color: green;
+}
+
+li red {
+  color: red;
 }
 
 #nieuws {
@@ -50,6 +60,14 @@ body {
   height: 100vh;
 }
 
+.wrap {
+  background-image: url('../images/background1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 #wie {
   position: relative;
   z-index: 5;
@@ -74,7 +92,7 @@ body {
   padding-top: 50px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 #assortiment h1 {
@@ -89,7 +107,7 @@ body {
   padding-top: 50px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 #openingstijden h1 {
