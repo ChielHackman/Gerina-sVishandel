@@ -23,9 +23,28 @@ $(document).ready(function(){
   });
 });
 
+// function to close the navbar when clicking a item on mobile
 $(function(){
     var navMain = $("#myNavbar");
     navMain.on("click", "a", null, function () {
         navMain.collapse('hide');
     });
+});
+
+//function to hide footer when keypad comes up on mobile
+var originalHeight = document.documentElement.clientHeight;
+var originalWidth = document.documentElement.clientWidth;
+$(window).resize(function() {
+    // Control landscape/portrait mode switch
+    if (document.documentElement.clientHeight == originalWidth &&
+         document.documentElement.clientWidth == originalHeight) {
+        originalHeight = document.documentElement.clientHeight;
+        originalWidth = document.documentElement.clientWidth;
+    }
+    // Check if the available height is smaller (keyboard is shown) so we hide the footer.
+   if (document.documentElement.clientHeight < originalHeight) {
+       $('.footer').hide();
+   } else {
+       $('.footer').show();
+   }
 });
