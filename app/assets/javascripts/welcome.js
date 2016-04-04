@@ -31,6 +31,43 @@ $(function(){
     });
 });
 
+// function to call the day of the week and show where we are
+  function getToday() {
+      var d = new Date() ;
+      var weekday = new Array(7);
+      weekday[0] = "<red>Gesloten</red>";
+      weekday[1] = "<red>Gesloten</red>";
+      weekday[2] = "Bathmen <green>10:30</green> - <red>13:00</red>" + "<br>" + "Oene <green>14:00</green> - <red>18:00</red>";
+      weekday[3] = "Kampen <green>10:30</green> - <red>17:00</red>";
+      weekday[4] = "Keizerslanden <green>10:00</green> - <red>17:00</red>" + "<br>" + "Wesepe <green>10:30</green> - <red>13:00</red>"
+      + "<br>" + "Diepenveen <green>14:00</green> - <red>17:30</red>";
+      weekday[5] = "Keizerslanden <green>10:00</green> - <red>17:00</red>" + "<br>" + "Wijhe <green>10:30</green> - <red>13:00</red>"
+      + "<br>" + "Twello <green>15:00</green> - <red>18:00</red>";
+      weekday[6] = "Keizerslanden <green>10:00</green> - <red>17:00</red>" + "<br>" + "Wijhe <green>10:00</green> - <red>17:00</red>"
+      + "<br>" + "Diepenveen <green>10:00</green> - <red>17:00</red>";
+
+      var n = weekday[d.getDay()];
+      document.getElementById("today").innerHTML = n;
+  }
+
+  function getTomorrow() {
+      var d = new Date() ;
+      var weekday = new Array(7);
+      weekday[6] = "<red>Gesloten</red>";
+      weekday[0] = "<red>Gesloten</red>";
+      weekday[1] = "Bathmen <green>10:30</green> - <red>13:00</red>" + "<br>" + "Oene <green>14:00</green> - <red>18:00</red>";
+      weekday[2] = "Kampen <green>10:30</green> - <red>17:00</red>";
+      weekday[3] = "Keizerslanden <green>10:00</green> - <red>17:00</red>" + "<br>" + "Wesepe <green>10:30</green> - <red>13:00</red>"
+      + "<br>" + "Diepenveen <green>14:00</green> - <red>17:30</red>";
+      weekday[4] = "Keizerslanden <green>10:00</green> - <red>17:00</red>" + "<br>" + "Wijhe <green>10:30</green> - <red>13:00</red>"
+      + "<br>" + "Twello <green>15:00</green> - <red>18:00</red>";
+      weekday[5] = "Keizerslanden <green>10:00</green> - <red>17:00</red>" + "<br>" + "Wijhe <green>10:00</green> - <red>17:00</red>"
+      + "<br>" + "Diepenveen <green>10:00</green> - <red>17:00</red>";
+
+      var n = weekday[d.getDay()];
+      document.getElementById("tomorrow").innerHTML = n;
+  }
+
 //function to hide footer when keypad comes up on mobile
 var originalHeight = document.documentElement.clientHeight;
 var originalWidth = document.documentElement.clientWidth;
