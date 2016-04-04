@@ -36,15 +36,15 @@ var originalHeight = document.documentElement.clientHeight;
 var originalWidth = document.documentElement.clientWidth;
 $(window).resize(function() {
     // Control landscape/portrait mode switch
-    if (document.documentElement.clientHeight == originalWidth &&
-         document.documentElement.clientWidth == originalHeight) {
+    if (document.documentElement.clientHeight == originalHeight &&
+         document.documentElement.clientWidth == originalWidth) {
         originalHeight = document.documentElement.clientHeight;
         originalWidth = document.documentElement.clientWidth;
     }
     // Check if the available height is smaller (keyboard is shown) so we hide the footer.
    if (document.documentElement.clientHeight < originalHeight) {
-       $('.footer').hide();
+       $('#footer').hide();
    } else {
-       $('.footer').show();
+       $('#footer').show();
    }
 });
