@@ -193,17 +193,18 @@
         <h1>Contact</h1>
         <p>Vul hieronder uw gegevens en bericht in.<br />
           Wij reageren zo spoedig mogelijk.</p>
-        <form role="form">
+        <form role="form" action="https://formspree.io/chielhackman@gmail.com" method="post">
           <div class="form-group">
             <div class="col-xs-12">
-              <input type="text" class="form-control" id="naam" required placeholder="Naam">
+              <input type="text" class="form-control" name="naam" required placeholder="Naam">
               <br />
-              <input type="email" class="form-control" id="email" required placeholder="naam@voorbeeld.com">
+              <input type="email" class="form-control" name="email" required placeholder="naam@voorbeeld.com">
               <br />
-              <textarea class="form-control" rows="5" id="comment" placeholder="Plaats hier uw bericht" required></textarea>
+              <textarea class="form-control" rows="5" name="comment" placeholder="Plaats hier uw bericht" required></textarea>
               <br />
               <button type="submit" class="btn btn-success">Verstuur</button>
               <button type="reset" class="btn btn-danger">Annuleer</button>
+              <input type="hidden" name="_next" value="http://gerinasvishandel.herokuapp.com/" />
               <br />
             </div>
           </div>
