@@ -1,0 +1,17 @@
+<%= form_for Recensie.new do |f| %>
+
+<div>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</div>
+
+<div>
+  <%= f.label :message %>
+  <%= f.text_area :message %>
+</div>
+
+<div>
+  <%= f.submit "Send" %>
+</div>
+
+<% end %>

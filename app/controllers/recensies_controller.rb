@@ -1,4 +1,4 @@
-class WelcomeController < ApplicationController
+class RecensiesController < ApplicationController
   def index
     @recensies = Recensie.all
   end

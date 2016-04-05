@@ -50,7 +50,8 @@
         </div>
         <div class="col-sm-4">
           <h1>Recensies</h1>
-          <p>Hier komen een aantal recensies</p>
+            <%= render file: "recensies/index.html.erb" %><br />
+            <a href="#recensies"><button>Alles weergeven</button></a>
         </div>
       </div>
     </div>
@@ -187,17 +188,15 @@
 </div>
 
 <div id="recensies">
-        <h1>Recensies</h1>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-</div>
+    <h1>Recensies</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <%= render file: "recensies/index.html.erb" %>
+        </div>
+        <div class="col-sm-6">
+          <%= render file: "recensies/new.html.erb" %>
+        </div>
+      </div>
 </div>
 
 <div id="mail">
