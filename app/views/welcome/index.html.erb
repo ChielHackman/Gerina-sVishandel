@@ -42,7 +42,7 @@
               <script type="text/javascript">
               getTomorrow();
               </script>
-              <a href="#openingstijden"><button>Alles weergeven</button></a>
+              <a href="#openingstijden"><button class="btn btn-info">Alles weergeven</button></a>
         </div>
         <div class="col-sm-4">
           <h1>Nieuws</h1>
@@ -51,7 +51,7 @@
         <div class="col-sm-4">
           <h1>Recensies</h1>
             <%= render file: "recensies/index.html.erb" %><br />
-            <a href="#recensies"><button>Alles weergeven</button></a>
+            <a href="#recensies"><button class="btn btn-info">Alles weergeven</button></a>
         </div>
       </div>
     </div>
@@ -188,12 +188,13 @@
 </div>
 
 <div id="recensies">
-    <h1>Recensies</h1>
       <div class="row">
         <div class="col-sm-6">
+          <h2>Recensies</h2>
           <%= render file: "recensies/index.html.erb" %>
         </div>
         <div class="col-sm-6">
+          <h2>Schrijf een recensie</h2>
           <%= render file: "recensies/new.html.erb" %>
         </div>
       </div>
