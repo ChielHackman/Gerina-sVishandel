@@ -29,17 +29,31 @@
 
 <div id="nieuws">
     <div class="bg"></div>
-        <h1>Nieuws</h1>
-        <p>Het is bijna zover</p>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+      <div class="row">
+        <div class="col-sm-4">
+          <h1>Waar vind u ons?</h1>
+          <h3>Vandaag:</h3>
+            <strong><p id="today"></p></strong>
+              <script type="text/javascript">
+              getToday();
+              </script>
+          <h3>Morgen:</h3>
+            <strong><p id="tomorrow"></p></strong>
+              <script type="text/javascript">
+              getTomorrow();
+              </script>
+              <a href="#openingstijden"><button>Alles weergeven</button></a>
+        </div>
+        <div class="col-sm-4">
+          <h1>Nieuws</h1>
+          <p>Binnenkort zal de vernieuwde website van<br /> Gerina's vishandel online zijn.</p>
+        </div>
+        <div class="col-sm-4">
+          <h1>Recensies</h1>
+          <p>Hier komen een aantal recensies</p>
+        </div>
       </div>
+    </div>
   </div>
 
 <div class="wrap">
@@ -124,19 +138,52 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12">
-        <h3>Vandaag:</h3>
-    <strong><p id="today"></p></strong>
-    <script type="text/javascript">
-     getToday();
-     </script>
-     <h3>Morgen:</h3>
-     <strong><p id="tomorrow"></p></strong>
-     <script type="text/javascript">
-      getTomorrow();
-      </script>
+      <div class="col-sm-4">
+        <h3>Maandag</h3>
+          <ul>
+            <li><red>Gesloten</red></li>
+          </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Dinsdag:</h3>
+          <ul>
+            <li>Bathmen<br /> <green>10:30</green> - <red>13:00</red></li>
+            <li>Oene<br /> <green>14:00</green> - <red>18:00</red></li>
+          </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Woensdag</h3>
+          <ul>
+            <li>Kampen<br /> <green>10:30</green> - <red>17:00</red></li>
+          </ul>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-sm-4">
+         <h3>Donderdag:</h3>
+           <ul>
+             <li>Keizerslanden<br /> <green>10:00</green> - <red>17:00</red></li>
+             <li>Wijhe<br /> <green>10:30</green> - <red>13:00</red></li>
+             <li>Twello<br /> <green>14:00</green> - <red>18:00</red></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+         <h3>Vrijdag</h3>
+          <ul>
+            <li>Keizerslanden<br /> <green>10:00</green> - <red>17:00</red></li>
+            <li>Wijhe<br /> <green>10:30</green> - <red>13:00</red></li>
+            <li>Twello<br /> <green>14:00</green> - <red>18:00</red></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Zaterdag:</h3>
+            <ul>
+              <li>Keizerslanden<br /> <green>10:00</green> - <red>17:00</red></li>
+              <li>Wijhe<br /> <green>10:00</green> - <red>17:00</red></li>
+              <li>Diepenveen<br /> <green>09:30</green> - <red>17:00</red></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </div>
 
 <div id="recensies">
