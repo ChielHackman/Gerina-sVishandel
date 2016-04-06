@@ -1,6 +1,6 @@
-<% @recensies.each do |recensie| %>
-  <ul>
-    <strong><li><%= recensie.name %></li></strong>
-  </ul>
-    <%= recensie.message %>
+<% @recensies.sort_by{|t| - t.created_at.to_i}.first(2).each do |recensie, i| %>
+  <div class="triangle-border">
+    <h4><%= recensie.name %></h4>
+    <p><%= recensie.message %></p>
+  </div>
 <% end %>

@@ -1,14 +1,15 @@
 <%= form_for Recensie.new do |f| %>
 <div class="form-group">
-  <%= f.text_field :name, class: 'form-control', placeholder: 'Vul hier uw naam in' %>
+  <%= f.text_field :name, :required => true, class: 'form-control', placeholder: 'Vul hier uw naam in' %>
 </div>
 
 <div class="form-group">
-  <%= f.text_area :message, class: 'form-control', placeholder: 'Schrijf hier uw recensie' %>
+  <%= f.text_area :message, :required => true, class: 'form-control', placeholder: 'Schrijf hier uw recensie' %>
 </div>
 
 <div class="form-group">
   <%= f.submit "Verstuur", class: 'btn btn-success' %>
+  <button type="reset" class="btn btn-danger">Annuleer</button>
 </div>
 
 <% end %>

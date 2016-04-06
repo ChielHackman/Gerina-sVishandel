@@ -30,25 +30,19 @@
 <div id="nieuws">
     <div class="bg"></div>
       <div class="row">
-        <div class="col-sm-4">
-          <h1>Waar vind u ons?</h1>
-          <h3>Vandaag:</h3>
-            <strong><p id="today"></p></strong>
-              <script type="text/javascript">
-              getToday();
-              </script>
-          <h3>Morgen:</h3>
-            <strong><p id="tomorrow"></p></strong>
-              <script type="text/javascript">
-              getTomorrow();
-              </script>
-              <a href="#openingstijden"><button class="btn btn-info">Alles weergeven</button></a>
-        </div>
-        <div class="col-sm-4">
+        <div class="col-sm-12">
+          <marquee><h3 id="today"></h3></marquee>
+          <script type="text/javascript">
+          getToday();
+          </script>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
           <h1>Nieuws</h1>
           <p>Binnenkort zal de vernieuwde website van<br /> Gerina's vishandel online zijn.</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <h1>Recensies</h1>
             <%= render file: "recensies/index.html.erb" %><br />
             <a href="#recensies"><button class="btn btn-info">Alles weergeven</button></a>
@@ -191,7 +185,7 @@
       <div class="row">
         <div class="col-sm-6">
           <h2>Recensies</h2>
-          <%= render file: "recensies/index.html.erb" %>
+          <%= render file: "recensies/show.html.erb" %>
         </div>
         <div class="col-sm-6">
           <h2>Schrijf een recensie</h2>
