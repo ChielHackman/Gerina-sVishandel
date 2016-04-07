@@ -3,7 +3,7 @@
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
 
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -19,16 +19,14 @@
         <li><a href="#assortiment">Assortiment</a></li>
         <li><a href="#openingstijden">Openingstijden</a></li>
         <li><a href="#recensies">Recensies</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#mail"><img src="../images/mail.jpg"></a></li>
+        <li><a href="#mail">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div id="nieuws">
-    <div class="bg"></div>
+<div class="wrap">
+<div class="container" id="nieuws">
       <div class="row">
         <div class="col-sm-12">
           <marquee><h3 id="today"></h3></marquee>
@@ -40,19 +38,20 @@
     <div class="row">
         <div class="col-sm-6">
           <h1>Nieuws</h1>
-          <p>Binnenkort zal de vernieuwde website van<br /> Gerina's vishandel online zijn.</p>
+          <p>Binnenkort zal de vernieuwde website online zijn.</p>
         </div>
         <div class="col-sm-6">
-          <h1>Recensies</h1>
+          <h1>Laatste recensies</h1>
             <%= render file: "recensies/index.html.erb" %><br />
             <a href="#recensies"><button class="btn btn-info">Alles weergeven</button></a>
         </div>
       </div>
+    <div class="row">
+      <img src="../images/terbeek.jpg">
     </div>
   </div>
 
-<div class="wrap">
-<div id="wie">
+<div class="container" id="wie">
     <div class="row">
       <div class="col-sm-12">
         <h1>Wie zijn wij?</h1>
@@ -76,7 +75,7 @@
     </div>
   </div>
 
-<div id="assortiment">
+<div class="container" id="assortiment">
     <div class="row">
       <div class="col-sm-12">
         <h1>Assortiment</h1>
@@ -126,7 +125,7 @@
       </div>
     </div>
 
-<div id="openingstijden">
+<div class="container" id="openingstijden">
     <div class="row">
       <div class="col-sm-12">
         <h1>Openingstijden</h1>
@@ -181,7 +180,7 @@
     </div>
 </div>
 
-<div id="recensies">
+<div class="container" id="recensies">
       <div class="row">
         <div class="col-sm-6">
           <h2>Recensies</h2>
@@ -194,14 +193,14 @@
       </div>
 </div>
 
-<div id="mail">
-    <div class="bg"></div>
+<div class="container" id="mail">
         <h1>Contact</h1>
         <p>Vul hieronder uw gegevens en bericht in.<br />
           Wij reageren zo spoedig mogelijk.</p>
         <form role="form" action="https://formspree.io/chielhackman@gmail.com" method="post">
           <div class="form-group">
-            <div class="col-xs-12">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
               <input type="text" class="form-control" name="naam" required placeholder="Naam">
               <br />
               <input type="email" class="form-control" name="email" required placeholder="naam@voorbeeld.com">
@@ -214,6 +213,7 @@
               <br />
             </div>
           </div>
+          </div>
         </form>
         <div id="footer">
           <div class="container">
@@ -221,3 +221,4 @@
           </div>
         </div>
   </div>
+</div>
